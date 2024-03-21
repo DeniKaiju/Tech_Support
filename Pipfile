@@ -5,7 +5,7 @@ name = "pypi"
 
 [packages]
 django = "==4.2.11"
-requests = ">2.0.0"
+requests = "~=2.0.0"
 flake8 = "*"
 isort = "*"
 black = "*"
