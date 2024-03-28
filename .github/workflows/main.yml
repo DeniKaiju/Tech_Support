@@ -1,9 +1,6 @@
 name: Check code quality
 
-on:
-  pull_request:
-    branches:
-      - '*'
+on: [push]
 
 jobs:
   code-quality:
