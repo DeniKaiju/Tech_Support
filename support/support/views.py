@@ -29,7 +29,7 @@ def fetch_exchange_rate(source_currency: str, destination_currency: str):
 
         rate = response.json()["Realtime Currency Exchange Rate"][
             "5. Exchange Rate"
-            ]
+        ]  # noqa
 
         cached_rate = rate
         last_cache_time = time.time()
